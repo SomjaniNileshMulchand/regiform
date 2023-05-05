@@ -1,0 +1,112 @@
+* {
+    background-color: darkslateblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h4 {
+    color: white;
+}
+
+input {
+    text-align: center;
+}
+
+.text {
+    width: 40rem;
+    height: 1.5rem;
+    border: 6px solid white;
+}
+
+::placeholder {
+    color: white;
+    background: rgb(142, 146, 146);
+}
+
+.Gender {
+    text-align: center;
+}
+
+.center {
+    color: white;
+}
+
+button {
+    width: 190px;
+    height: 50px;
+    color: white;
+    border: none;
+    background-image: linear-gradient(green, yellow);
+}
+
+button:hover {
+    background-image: linear-gradient(blue, black);
+}
+
+@media (max-width:900px) {
+    .form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+    }
+
+    h4 {
+        color: white;
+    }
+
+    input {
+        text-align: center;
+    }
+
+    .text {
+        width: 35rem;
+        height: 1rem;
+        border: 2px solid white;
+    }
+
+    ::placeholder {
+        color: white;
+        background: rgb(142, 146, 146);
+    }
+
+    .Gender {
+        text-align: center;
+    }
+
+    .center {
+        color: white;
+    }
+
+    button {
+        width: 120px;
+        height: 25px;
+        color: white;
+        border: none;
+        background-image: linear-gradient(green, yellow);
+    }
+
+    button:hover {
+        background-image: linear-gradient(blue, black);
+    }
+
+}
