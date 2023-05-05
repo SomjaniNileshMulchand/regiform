@@ -106,7 +106,7 @@ button:hover {
     }
 
     button:hover {
-        background-image: linear-gradient(blue, black);
+        background-image: linear-gradient(rgb(211, 211, 237), rgb(235, 181, 181));
     }
 
 }
